@@ -77,7 +77,7 @@ SEARCH_TOP                 # 排除的像素高度，自适应屏幕分辨率
 
 ## 注意事项
 
-- 脚本依赖游戏自带的阳光贴图（`resources/graphics/Plants/Sun/`），请保持该目录完整
+- 脚本依赖导入的文件夹（`Sun`）识别，使用时候可以使用上面附带的文件夹
 - 仅支持 Windows 系统（使用了 `ctypes.windll`）
 - 游戏分辨率不同时，可能需要调整 `EXCLUDE_TOP_RATIO`
 
