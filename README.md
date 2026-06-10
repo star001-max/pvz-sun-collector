@@ -75,6 +75,14 @@ SEARCH_TOP                 # 排除的像素高度，自适应屏幕分辨率
 
 ---
 
+## 测试环境
+
+本脚本在以下游戏项目上测试通过：
+
+- GitHub: [weineng-zhou/plants_vs_zombies-master](https://github.com/weineng-zhou/plants_vs_zombies-master.git)
+
+如果你的游戏版本不同，可能需要调整 `SUN_FOLDER` 路径和 `SEARCH_REGION` 区域设置。
+
 ## 注意事项
 
 - 脚本依赖导入的文件夹（`Sun`）识别，使用时候可以使用上面附带的文件夹
@@ -82,7 +90,7 @@ SEARCH_TOP                 # 排除的像素高度，自适应屏幕分辨率
 - 游戏分辨率不同时，可能需要调整 `EXCLUDE_TOP_RATIO`
 
 ---
-
+感谢 weineng-zhou 提供的游戏项目
 ## 许可证
 
 仅供学习交流使用，请勿用于商业用途。
